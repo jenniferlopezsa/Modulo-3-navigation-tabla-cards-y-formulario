@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Contacto - Café del Valle</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><span class="oi oi-coffee"></span> Café del Valle</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal"
+              aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item "><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item "><a class="nav-link" href="productos.html">Productos</a></li>
+          <li class="nav-item active"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+      </ol>
+    </nav>
+
+    <h1 class="h3 mb-4">Escribinos</h1>
+
+    <!-- Punto 4: formulario con email, select, checkbox, texto y textarea -->
+    <form class="formulario">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="email">Correo electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="nombre@correo.com">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="motivo">Motivo de contacto</label>
+        <select class="form-control" id="motivo">
+          <option>Consulta</option>
+          <option>Comentario</option>
+          <option>Suscripción mensual de café</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="4"></textarea>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="novedades">
+        <label class="form-check-label" for="novedades">Quiero recibir novedades y promociones</label>
+      </div>
+      <button type="submit" class="btn btn-cafe"><span class="oi oi-envelope-closed"></span> Enviar</button>
+    </form>
+  </main>
+
+  <footer class="pie">
+    <div class="container text-center">
+      <address class="mb-1">Calle Principal 123, Trujillo, Colón</address>
+      <small>&copy; 2026 Café del Valle</small>
+    </div>
+  </footer>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

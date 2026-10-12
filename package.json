@@ -1,0 +1,17 @@
+{
+  "name": "cafe-navegacion",
+  "version": "1.0.0",
+  "description": "Navegacion, tablas, tarjetas y formularios con Bootstrap 4",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.7.1",
+    "open-iconic": "^1.1.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

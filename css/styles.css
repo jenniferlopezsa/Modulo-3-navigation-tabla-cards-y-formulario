@@ -1,0 +1,29 @@
+/* La barra fija tapa el contenido: se compensa con padding (punto 1) */
+body {
+  padding-top: 56px;
+  background-color: #fbf7f1;
+}
+.btn-cafe {
+  background-color: #6b3e1f;
+  color: #fff;
+}
+.btn-cafe:hover {
+  background-color: #4d2b14;
+  color: #fff;
+}
+.card {
+  border: 1px solid #e3d5c2;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card-header, .card-footer {
+  background-color: #fffaf3;
+}
+.formulario {
+  max-width: 720px;
+}
+.pie {
+  padding: 24px 0;
+  background-color: #3b2412;
+  color: #f1e6d8;
+}
